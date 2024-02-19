@@ -1,0 +1,145 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+body,
+html {
+
+    background-color: #e9d8a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#wide {
+    position: relative;
+    background-color: #f9b19f;
+    height: 35%;
+    /* border-radius: 20px; */
+    /* height: 100%; */
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 9px 9px 9px black;
+
+}
+
+#heading {
+    position: absolute;
+    top: 15%;
+    
+    font-size: 25px;
+}
+
+#centerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* position: absolute; */
+    /* border: 10px solid black; */
+    /* background-color: black; */
+}
+
+#tempinput {
+    height: 10%;
+    width: 15%;
+    padding: 4px;
+    /* border-radius: 5px; */
+}
+
+#tempselect {
+
+    height: 14%;
+    width: 15%;
+    /* border-radius: 5px; */
+
+}
+
+#result {
+    position: absolute;
+    bottom: 12%;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+#submit {
+    position: absolute;
+    height: 30px;
+    width: 60px;
+    bottom: 27%;
+    padding: 5px;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    font-size: 13px;
+    background-color: black;
+    color: aliceblue;
+}
+
+#submit:hover {
+    height: 35px;
+    width: 70px;
+}
+
+/* #tempinput{
+    
+    position: absolute;
+    height: 13%;
+    width: 15%;
+    top: 45%;style.css
+    left: 32%;
+
+}
+#tempselect{
+    position: absolute;
+    height: 14%;
+    width: 20%;
+    top: 45%;
+    right: 32%;
+} */
+
+@media only screen and (max-width: 375px){
+
+    #wide{
+        height: 65%;
+        width: 80%;
+    }
+
+    #heading{
+        text-align: center;
+
+        font-size: 22px;
+    }
+    #centerbox{
+        height: 80%;
+        width: 80%;
+    }
+    #tempinput{
+        height: 10%;
+        width: 40%;
+
+    }
+    #tempselect{
+        height: 13%;
+        width: 35%;
+    }
+    #submit{
+        height: 10%;
+        width: 20%;
+        padding: 8px;
+        font-size: 15px;
+    }
+    #submit:hover{
+        height: 9%;
+        width: 18%;
+    }
+
+    
+
+}
