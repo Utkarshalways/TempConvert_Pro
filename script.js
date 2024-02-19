@@ -7,7 +7,7 @@ const calculatetemp = () =>{
 
     const tempselect = document.getElementById("tempselect");
     const tempvalue = tempselect.options[tempselect.selectedIndex].value;
-    // console.log(tempvalue);
+    // console.log(tempvalue);+
 
     let celTofar = (cel) =>{
         let Fahrenheit = Math.round((cel * 9/5) + 32);
